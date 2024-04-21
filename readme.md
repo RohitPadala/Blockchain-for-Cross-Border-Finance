@@ -1,15 +1,5 @@
 # Blockchain for Cross Border Finances
 
-Team No.: 31
-
-| Name  | Roll No. |
-| ------------- | ------------- |
-| Rohit Aryan  | 2020AAPS0293H  |
-| Rohit Tulsi Padala  | 2021AAPS1896H  |
-| Vipanchi Dixit  | 2021A3PS2983H  |
-| K Dheeraj  | 2020AAPS2098H  |
-| Niharika Pappu | 2020AAPS1322H  |
-
 ## Brief Description of the Project
 Our project aims to facilitate cross-border finances through blockchain technology. By leveraging the inherent security, transparency, and efficiency of blockchain, we're creating a platform that streamlines international transactions, reduces processing times, and minimizes red-tape costs associated with traditional banking systems. 
 
