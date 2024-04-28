@@ -78,6 +78,9 @@ class Transaction_RealEstate(Transaction):
 
     def calculate_data(self):
         data = json.dumps(self.to_dict(), sort_keys=True).encode('utf-8')
+        random_bit = random.randint(0, 1)
+        random_bit_bytes = bytes([random_bit])
+        data = data + random_bit_bytes
         return data
     
     def process_transaction(self, sender, receiver, data, UserDB, blockchain):
@@ -126,6 +129,9 @@ class Transaction_Shares(Transaction):
 
     def calculate_data(self):
         data = json.dumps(self.to_dict(), sort_keys=True).encode('utf-8')
+        random_bit = random.randint(0, 1)
+        random_bit_bytes = bytes([random_bit])
+        data = data + random_bit_bytes
         return data
     
     def process_transaction(self, sender, receiver, data, UserDB, blockchain):
